@@ -1,0 +1,15 @@
+/*React components are typically written in JavaScript. 
+JSX is a JavaScript extension that stands for JavaScript XML. 
+It provides a way to structure the components more easily 
+by allowing us to write HTML in React.
+*/
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "outDir": "../tests-out"
+  }
+}
